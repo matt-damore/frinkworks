@@ -5,9 +5,7 @@ from frinkworks.metadata.mediainfo import extract_metadata
 
 def main() -> None:
 
-    parser = argparse.ArgumentParser(
-        description="Extract media metadata using MediaInfo"
-    )
+    parser = argparse.ArgumentParser(description="Extract media metadata using MediaInfo")
 
     parser.add_argument("file_path", help="Path to the media file")
 
